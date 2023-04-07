@@ -1,0 +1,12 @@
+services:
+  mysql:
+    container_name: jurishand-mysql
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: jurishand
+      MYSQL_DATABASE: jurishand
+      MYSQL_USER: jurishand
+      MYSQL_PASSWORD: jurishand
+    ports:
+      - "3306:3306"
