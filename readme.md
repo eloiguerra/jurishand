@@ -9,6 +9,7 @@
 
 1. Certifique-se de ter concluidos os passos de "Como rodar a API"
 2. Execute o comando `python3 caminho_do_arquivo/article.py` (é necessário apenas a instalação da biblioteca pandas)
+3. Para mudar os parametros da requisição é necessário trocar manualmente os valores da variáveis "category" e "category" dentro do método "getParams"
 
 # Como rodar os testes da API
 
